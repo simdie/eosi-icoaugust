@@ -105,7 +105,7 @@ export default function Home() {
           <ThankYouModal show={showThankYouModal} onClose={handleCloseThankYouModal} />
 
           <div className="flex flex-col items-center sm:items-start justify-center gap-5 mb-6 mx-[24px] sm:mx-[60px]  ">
-            <p className="font-semibold text-3xl text-center sm:text-start sm:w-2/3 sm:text-2xl">Welcome to the exclusive EOSI Finance Private Token Sale! 🚀</p>
+            <p className="font-semibold text-3xl text-center sm:text-start sm:w-2/3 sm:text-2xl">Welcome to the exclusive EOSI Finance Public Token Sale! 🚀</p>
             <p className="font-inter text-sm text-center sm:text-start sm:w-2/3">Are you ready to be part of the next big AI revolution in decentralized Proprietary Trading Sector? EOSI Finance utility token <span className="text-orange-500 font-semibold">$EOSIF</span> is your golden ticket to an AI powered world where your assets work smarter, not harder. Our cutting-edge platform is the secret ingredient to spicing up your crypto investment portfolio with a dash of blockchain innovation.</p>
             <p className="hidden sm:block font-semibold text-sm text-center"> <span className="text-yellow-500 font-semibold">Why join</span>   <span className="text-purple-300 font-semibold">the EOSI Token</span>  <span className="text-green-500 font-semibold">Sale?</span></p>
 
