@@ -127,20 +127,29 @@ export default function Home() {
               <p className="text-base"><a href="https://eosi-finance.gitbook.io/eosi-finance-whitepaper/how-to-buy-eosif-during-private-sale" target="_blank" rel="noopener noreferrer" className=" text-white hover:text-white sm:text-sm">HOW TO BUY ?</a></p>
             </div>
           </div>
-          <div className="hidden sm:flex border-[1px] border-zinc-500 flex-row items-center justify-between sm:w-[600px] md:w-[600px] lg:w-[800px] py-[20px] px-[50px] gap-8 mx-[50px] rounded-xl text-sm mt-10 shadow-purple2">
-            <div>
-              <p className="text-center">$0.10</p>
-              <p>Private Sale Price</p>
+
+          <div className=' flex items-center justify-center'>
+
+            <div className="hidden sm:flex border-[1px] border-zinc-500 flex-row items-center justify-between sm:w-[600px] md:w-[600px] lg:w-[800px] py-[20px] px-[50px] gap-8 mx-[50px] rounded-xl text-sm mt-14 shadow-purple2">
+              <div>
+                <p className="text-center">$0.10</p>
+                <p>Private Sale Price</p>
+              </div>
+              <div>
+                <p className="text-center">$0.60</p>
+                <p>Public Sale Price</p>
+              </div>
+              <div>
+                <p className="text-center">$0.95</p>
+                <p>Listing Price</p>
+              </div>
             </div>
-            <div>
-              <p className="text-center">$0.60</p>
-              <p>Public Sale Price</p>
-            </div>
-            <div>
-              <p className="text-center">$0.95</p>
-              <p>Listing Price</p>
-            </div>
+
           </div>
+
+          
+
+
           <div className="bg-black  ">
 
             <div className='bg-black flex flex-col lg:flex-row items-center sm:items-center lg:mx-40'>
@@ -160,12 +169,12 @@ export default function Home() {
                     className="placeholder-white bg-transparent border-none outline-none px-4 py-2 text-white text-lg w-full"
                     style={{ width: 'calc(100% - 100px)' }} // Adjust width as needed
                   />
-                  <div>
+                  <div className='pr-4'>
                     <Image
-                      src="/images/matic.png"
+                      src="/images/matic.svg"
                       alt="Eosi Finance"
-                      width={110}
-                      height={2}
+                      width={91}
+                      height={40}
                       color="white"
                     />
                   </div>
@@ -196,7 +205,7 @@ export default function Home() {
                 </div>
               </div>
 
-              
+
 
             </div>
 
